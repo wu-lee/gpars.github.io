@@ -3,12 +3,29 @@
 
 html {
     font-family: Asul, sans-serif;
-    background: #dddddd;
-    foreground: #333333;
+    background: #333333;
+}
+
+body {
+    color: #dddddd;
 }
 
 #header {
     font-style: italic;
+}
+
+#logo {
+    float: right;
+    width: 240px;
+}
+
+#content {
+    font-family: Asul, sans-serif;
+    background: #333333;
+}
+
+h1 {
+    font-size: 90px;
 }
 
 #footer {
