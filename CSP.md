@@ -60,7 +60,7 @@ requestedPrimeNumberCount.times {
     println "Found: $prime"
     currentOutput = filter(currentOutput, prime)
 }
-{% endhiglight %}
+{% endhighlight %}
 
 GPars Tasks represent active computations. Indirect addressing through
 channels gives you an enormous flexibility in how and when you wire tasks
