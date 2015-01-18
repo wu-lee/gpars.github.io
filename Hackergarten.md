@@ -30,7 +30,7 @@ You are only a few easy steps away from being able to start:
 1. Create an IDEA or Eclipse project files through _gradlew idea_ or _gradlew eclipse_ commands
 1. Open the project in IDEA or Eclipse
 
-Please refer to [Developer Zone](Developer+Zone) for details on how to open up
+Please refer to [Developer Zone](Developer_Zone.html) for details on how to open up
 the project in an IDE.
 
 Feel free to ask on the mailing list for more details on these topics or

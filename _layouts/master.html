@@ -8,14 +8,20 @@
     <!--script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script-->
   </head>
   <body>
+    <div id="logo">
+      <img src="images/gpars-rgb-reverse-grey.svg"/>
+    </div>
+    <div id="navigation">
+      {% include navigation.html %}
+    </div>
     <!--div id='header'>GPars: {{page.title}}</div-->
     <!--div id='menu'>
-      <ul>
-        <li><a href='/'>Home</a></li>
-        <li><a href='/blog.html'>Blog</a></li>
-        <li><a href='/about.html'>About</a></li>
-      </ul>
-    </div-->
+        <ul>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/blog.html'>Blog</a></li>
+          <li><a href='/about.html'>About</a></li>
+        </ul>
+  </div-->
     <div id='content'>
       {{ content }}
     </div>

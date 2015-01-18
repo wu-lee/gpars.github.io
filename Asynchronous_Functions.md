@@ -52,5 +52,4 @@ GParsPool.withPool {
 {% endhighlight %}
 
 For more details on the Asynchronous computations please visit [the
-Asynchronous Invocation section of the User Guide](http://gpars.org/guide/guid
-e/dataParallelism.html#dataParallelism_asynchronousInvocation) .
+Asynchronous Invocation section of the User Guide](http://gpars.org/guide/guide/dataParallelism.html#dataParallelism_asynchronousInvocation) .

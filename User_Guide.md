@@ -9,10 +9,8 @@ The [User Guide](http://www.gpars.org/guide/index.html) introduces all the
 essential concepts and gives you details and samples on how to use GPars in
 your code.
 
-You may also try the [SNAPSHOT User
-Guide](http://gpars.org/SNAPSHOT/aguide/html5/index.html)
-([pdf](http://gpars.org/SNAPSHOT/aguide/pdf/index.pdf)) for the upcoming 1.3
-release.
+You may also try the [SNAPSHOT User Guide](http://gpars.org/SNAPSHOT/aguide/html5/index.html)
+([pdf](http://gpars.org/SNAPSHOT/aguide/pdf/index.pdf)) for the upcoming 1.3 release.
 
 Version | HTML | One-page | PDF
 ---|---|---|---

@@ -17,9 +17,35 @@ the ability to:
 To enable GPars in your Grails application, alter the _BuildConfig.groovy_
 file as follows:
 
+{% highlight groovy %}
+repositories {
+    mavenCentral()
+    mavenRepo 'http://repository.jboss.org/maven2/'
+}
+dependencies {
+    build 'org.codehaus.gpars:gpars:1.1.0'
+}
+{% endhighlight %}
+
 In Griffon, use the following:
+
+{% highlight groovy %}
+griffon.project.dependency.resolution = {
+    inherits "global"
+
+    default dependencies
+        repositories {
+            griffonHome()
+            mavenCentral()
+        }
+        dependencies {
+            runtime org.codehaus.gpars:gpars:1.1.0
+        }
+    }
+}
+{% endhighlight %}
 
 Once the dependency has been specified, you can start using GPars in your
 project. You may now want to check out the [Groovy Fast
-Track](Groovy+Fast+Track) to do your first GPars experiments. Alternatively go
+Track](Groovy_Fast_Track.html) to do your first GPars experiments. Alternatively go
 directly to the [User Guide](http://gpars.org/guide/index.html) and have fun!

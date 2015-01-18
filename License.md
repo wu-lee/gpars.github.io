@@ -5,7 +5,7 @@ title: Licence
 
 # License
 
-**GPars** \- Groovy Parallel Systems
+**GPars** -- Groovy Parallel Systems
 
 Copyright © 2008–2015 Vaclav Pech, <http://www.vaclavpech.eu/>
 

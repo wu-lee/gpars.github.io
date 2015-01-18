@@ -19,12 +19,12 @@ streams and tasks has been included as well as the Clojure's agent concept has
 been implemented.
 
 In September 2009 Dierk Koenig, Alex Tkachman, Russel Winder and Paul King
-joined the team, the project moved to Codehaus under a new name - **GPars**.
+joined the team, the project moved to Codehaus under a new name -- **GPars**.
 
 In October 2009 the dataflow abstraction has been enhanced with dataflow
 operators and an initial Fork/Join convenience layer.
 
-Since December 2009 GPars has a [logo](GPars+Logo) .
+Since December 2009 GPars has a [logo](GPars_Logo.html) .
 
 The team made their first release under a new project name in December 2009 -
 GPars 0.9 came out with a fancy [User
@@ -34,7 +34,7 @@ From the increasing amount of feedback and comments it become evident that
 GPars is gaining some attention. GPars has been presented at several
 conferences in Europe and North America (e.g. W-JAX 2009, JAX 2010, Jfokus
 2010, GeeCON 2010). You may also check out a more complete list of
-[Presentations](Presentations) and [Events](Events)..
+[Presentations](Presentations) and [Events](Events.html).
 
 Jon Kerridge from the University of Kent joined GPars and contributed his
 [JCSP](http://www.cs.kent.ac.uk/projects/ofa/jcsp/) wrapper library, called

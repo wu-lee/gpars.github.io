@@ -19,10 +19,12 @@ _Note: GPars comes bundled with Groovy distributions so this step should
 normally be not required._
 
 We'll use Groovy's Grape functionaity to grab all the requited dependencies
-for us. You may check ot the [GPars Integration page](Integration) for
+for us. You may check ot the [GPars Integration page](Integration.html) for
 alternative ways to integrate GPars with your project.
 
 Add the following line to the groovy script:
+
+    @Grab(group='org.codehaus.gpars', module='gpars', version='1.1.0')
 
 ## Step 3 -- Experiment with parallel collection processing
 
@@ -30,7 +32,21 @@ Believe it or not, now, we're ready to experiment. Try the following script,
 which will concurrently query a collection of strings with regular
 expressions:
 
+{% highlight groovy %}
+@Grab(group='org.codehaus.gpars', module='gpars', version='1.1.0')
+import groovyx.gpars.GParsPool
+
+GParsPool.withPool {
+    def animals = ['dog', 'ant', 'cat', 'whale']
+    println(animals.anyParallel {it ==~ /ant/} ? 'Found an ant' : 'No ants found')
+    println(animals.everyParallel {it.contains('a')} ? 'All animals contain a' : 'Some animals can live without an a')
+    }
+{% endhighlight %}
+
 Run the script and you should get the following output:
+
+> Found an ant
+> Some animals can live without an a
 
 Now feel free to experiment changing the regular expressions, using different
 collections or different methods, like eachParallel(), collectParallel(),
@@ -45,6 +61,44 @@ Guide](http://www.gpars.org/guide/).
 
 Now we could try to build an actor and send it a couple of messages to see it
 acting.
+
+{% highlight groovy linenos %}
+@Grab(group='org.codehaus.gpars', module='gpars', version='1.1.0')
+import groovyx.gpars.actor.DynamicDispatchActor
+import org.codehaus.groovy.runtime.NullObject
+
+final class MyActor extends DynamicDispatchActor {
+    private int counter = 0
+
+    void onMessage(String message) {
+        counter += message.size()
+        println 'Received string'
+    }
+
+    void onMessage(Integer message) {
+        counter += message
+        println 'Received integer'
+    }
+
+    void onMessage(Object message) {
+        counter += 1
+        println 'Received object'
+    }
+
+    void onMessage(NullObject message) {
+        println 'Received a null object. Sending back the current counter value.'
+        reply counter
+    }
+}
+
+final def actor = new MyActor()
+actor.start()
+actor.send 1
+actor << 2
+actor 20
+actor 'Hello'
+println actor.sendAndWait(null)
+{% endhighlight %}
 
 Our actor maintains a private counter and accepts different types of messages,
 which result in updating the counter. Sending a null value will make the actor
@@ -62,5 +116,5 @@ the [User Guide](http://www.gpars.org/guide/), browsed the [GPars code example
 s](http://git.codehaus.org/gitweb.cgi?p=gpars.git;a=tree;f=src/test/groovy/gro
 ovyx/gpars/samples;h=6e25c7ecb409197aced73a76719795976ee461ec;hb=HEAD) and
 continued experimenting. You may also consider checking out the [Java Fast
-Track](Java+Fast+Track), in case you need to use GPars high-level concurency
+Track](Java_Fast_Track.html), in case you need to use GPars high-level concurency
 abstractions from Java code. Good luck!

@@ -16,7 +16,6 @@ body {
 
 #logo {
     float: right;
-    width: 240px;
 }
 
 #content {
@@ -25,9 +24,13 @@ body {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 60pt;
 }
 
 #footer {
     font-style: italic;
+}
+
+#navigation ul {
+    float: right;
 }

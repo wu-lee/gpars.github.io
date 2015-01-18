@@ -6,7 +6,7 @@ title: Support
 # Support
 
 As with most open-source projects, you can get quick, accurate and free help
-at the [user mailing list](Community).To report issues and suggest
+at the [user mailing list](Community.html).To report issues and suggest
 improvements, please use our [JIRA](http://jira.codehaus.org/browse/GPARS).
 
 If you need commercial-level guarantees of support, on-site or on-line

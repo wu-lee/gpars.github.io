@@ -21,4 +21,4 @@ Download the latest build snapshots from our Bamboo site - [Snapshots
 downloads](http://bamboo.ci.codehaus.org/browse/GPARS-DEF/latest/artifact)
 
 Note, that you need no special download if you use any of the
-[Integration](Integration) options.
+[Integration](Integratio.html) options.

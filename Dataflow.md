@@ -14,7 +14,7 @@ Check out the small example written in Groovy using GPars, which sums results
 of calculations performed by three concurrently run tasks:
 
 {% highlight groovy linenos %}
-[import static groovyx.gpars.dataflow.Dataflow.task
+import static groovyx.gpars.dataflow.Dataflow.task
 final def x = new DataflowVariable()
 final def y = new DataflowVariable()
 final def z = new DataflowVariable()
@@ -48,7 +48,10 @@ magically transferred among tasks at the right time without your intervention.
 The data flow seamlessly among tasks / threads without your intervention or
 care.
 
-**Implementation detail:** The three tasks in the example **do not necessarily need to be mapped to three physical threads**. Tasks represent so-called "green" or "logical" threads and can be mapped under the covers to any number of physical threads. The actual mapping depends on the scheduler, but the outcome of dataflow algorithms doesn't depend on the actual scheduling.
+**Implementation detail:** The three tasks in the example **do not necessarily need to be mapped to three
+  physical threads**. Tasks represent so-called "green" or "logical" threads and can be mapped under the
+  covers to any number of physical threads. The actual mapping depends on the scheduler, but the outcome of
+  dataflow algorithms doesn't depend on the actual scheduling.
 
 ## Benefits
 
@@ -71,14 +74,12 @@ Guide](http://gpars.org/guide/guide/dataflow.html).
 
 [http://github.com/jboner/scala-
 dataflow/tree/f9a38992f5abed4df0b12f6a5293f703aa04dc33/src Scala Dataflow
-library by Jonas Boner](http://github.com/jboner/scala-
-dataflow/tree/f9a38992f5abed4df0b12f6a5293f703aa04dc33/src Scala Dataflow
+library by Jonas Boner](http://github.com/jboner/scala-dataflow/tree/f9a38992f5abed4df0b12f6a5293f703aa04dc33/src Scala Dataflow
 library by Jonas Bon??r)
 
 [http://jonasboner.com/talks/state_youre_doing_it_wrong/html/all.html JVM
 concurrency presentation slides by Jonas
-Boner](http://jonasboner.com/talks/state_youre_doing_it_wrong/html/all.html
-JVM concurrency presentation slides by Jonas Bon??r)
+Boner](http://jonasboner.com/talks/state_youre_doing_it_wrong/html/all.html JVM concurrency presentation slides by Jonas Bon??r)
 
 <http://github.com/larrytheliquid/dataflow/tree/master Dataflow Concurrency
 library for Ruby>

@@ -28,7 +28,7 @@ Date: December 20th 2014
 
 ### Version 1.4
 
-  * Leveraging Groovy 3.0 - new MOP
+  * Leveraging Groovy 3.0 -- new MOP
   * Actor and actor queue monitoring
   * Actor failover
   * Flow-specific actors

@@ -1,4 +1,3 @@
-gpars.github.io
-===============
+# gpars.github.io
 
 GPars organization GitHub pages

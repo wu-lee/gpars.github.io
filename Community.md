@@ -19,8 +19,7 @@ announcements | announce@gpars.codehaus.org | [Codehaus subscription page](http:
 
 ## Nabble
 
-The user mailing list is also available though [nabble](http://n3.nabble.com
-/GPars-user-mailing-list-f19372.html)
+The user mailing list is also available though [nabble](http://n3.nabble.com/GPars-user-mailing-list-f19372.html)
 
 ## Issue Tracker
 
