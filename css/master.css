@@ -14,17 +14,13 @@ body {
     font-style: italic;
 }
 
-#logo {
-    float: right;
-}
-
 #content {
     font-family: Asul, sans-serif;
     background: #333333;
 }
 
 h1 {
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 #footer {

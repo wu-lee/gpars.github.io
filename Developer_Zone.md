@@ -3,9 +3,9 @@ layout: master
 title: Developer Zone
 ---
 
-_Developer Zone_
+# Developer Zone
 
-# Information for GPars developers
+### Information for GPars developers
 
 ## Build info
 
@@ -13,12 +13,14 @@ The continuous integration build can be found under:
 
 Build Server | Link | Note
 ---|---|---
-JetBrains TeamCity | <http://teamcity.jetbrains.com/project.html?projectId=project34> | needs registration
+Travis-CI | <https://travis-ci.org/GPars/GPars> | ![Travis-CI status master](https://travis-ci.org/GPars/GPars.svg?branch=master)
+Snap-CI | <https://snap-ci.com/GPars/GPars/branch/master> | ![Snap-CI status master](https://snap-ci.com/GPars/GPars/branch/master/build_image)
+JetBrains TeamCity | <http://teamcity.jetbrains.com/project.html?projectId=GPars> | needs registration
 Codehaus Bamboo | <http://bamboo.ci.codehaus.org/browse/GPARS-DEF> |
 
 ## Issue Tracker
 
-The JIRA issue tracker:<http://jira.codehaus.org/browse/GPARS>
+The JIRA issue tracker: <http://jira.codehaus.org/browse/GPARS>
 
 ## Source Repository
 
