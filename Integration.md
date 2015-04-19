@@ -64,7 +64,7 @@ and also the dependency into your project:
     repositories {
         mavenCentral()
         //add repositories for optional dependencies
-        mavenRepo urls: ['http://repository.jboss.org/maven2/']
+        maven{url 'http://repository.jboss.org/maven2/'}
     }
 
     dependencies {
@@ -74,9 +74,9 @@ and also the dependency into your project:
 ### Snapshots
 
     repositories {
-        mavenRepo urls: ["http://snapshots.repository.codehaus.org/"]
+        maven{url 'http://snapshots.repository.codehaus.org/'}
         //add repositories for optional dependencies
-        mavenRepo urls: ['http://repository.jboss.org/maven2/']
+        maven{url 'http://repository.jboss.org/maven2/'}
     }
     dependencies {
         compile "org.codehaus.gpars:gpars:1.3-SNAPSHOT"
@@ -137,13 +137,13 @@ DEF/latest/artifact) is available for the SNAPSHOT release.
 
 ### Grails since 1.2
 
-Leveraging the build in dependency management you can instad installing the
+Leveraging the built-in dependency management you can instead of installing the
 plugins update the BuildConfig.groovy file accordingly:
 
     repositories {
         mavenCentral()
-        //  mavenRepo 'http://snapshots.repository.codehaus.org'  //enable if using GPars snapshots
-        mavenRepo 'http://repository.jboss.org/maven2/'
+        //  maven{url 'http://snapshots.repository.codehaus.org'}  //enable if using GPars snapshots
+        maven{url 'http://repository.jboss.org/maven2/'}
     }
     dependencies {
         build 'org.codehaus.gpars:gpars:1.2.1'
