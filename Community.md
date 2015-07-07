@@ -13,9 +13,9 @@ to you [ohloh stack](https://www.ohloh.net/p/gpars).
 Two public Google Groups exist, which serve as mailing lists, and can
 be used to search archives and post online:
 
-[gpars-users](https://groups.google.com/forum/#!forum/gpars-users) - for general discussion
+[gpars-users](http://groups.google.com/forum/#!forum/gpars-users) - for general discussion
 
-[gpars-developers](https://groups.google.com/forum/#!forum/gpars-developers) - for discussion of the library's implementation
+[gpars-developers](http://groups.google.com/forum/#!forum/gpars-developers) - for discussion of the library's implementation
 
 The old Codehaus mailing lists are gone, but are archived here:
 
@@ -29,7 +29,7 @@ There are GitHub issue trackers for each of the GPars projects:
 
 [GPars](http://github.com/GPars/GPars/issues) (Implementation)
 
-[gpars.github.io](https://github.com/GPars/gpars.github.io/issues) (Documentation)
+[gpars.github.io](http://github.com/GPars/gpars.github.io/issues) (Documentation)
 
 The old Codehaus Jira tracker has now gone.
 
@@ -41,6 +41,8 @@ issues also welcome since that provides focus for upcoming work.
 
 The source code is available through the git repository hosted on GitHub
 
+[All GPars projects](http://github.com/GPars/GPars)
+
 [GPars](http://github.com/GPars/GPars) (Implementation)
 
-[gpars.github.io](https://github.com/GPars/gpars.github.io) (Documentation)
+[gpars.github.io](http://github.com/GPars/gpars.github.io) (Documentation)
