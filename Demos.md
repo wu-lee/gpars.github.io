@@ -5,12 +5,10 @@ title: Demos
 
 # Demos
 
-Packaged demos in Groovy:
-
-[Samples for GA releases](http://gpars.org/download/1.2.1/gpars-samples-1.2.1.zip)
+Packaged demos in Groovy: [Samples for GA releases](http://gpars.org/download/1.2.1/gpars-samples-1.2.1.zip)
 
 The old Codehaus [Samples for SNAPSHOT releases](http://bamboo.ci.codehaus.org/browse/GPARS-DEF/latest/artifact)
-repositoory has gone.
+repository has gone.
 
 ## Using GPars from Java - Maven-based Java API demo project
 
@@ -20,9 +18,8 @@ integrate GPars with Maven.
 
 ## Codebase search
 
-Please find the full list of all demo scripts and classes in the codebase
-under test/.../samples/ in files starting with "Demo" or simply search the
-online repository.
-
-<https://github.com/GPars/GPars/tree/master/src/test/groovy/groovyx/gpars/samples>
+Please find the full list of all demo scripts and classes in the
+codebase in files starting with "Demo" in the source repository under the directory
+[test/.../samples/](http://github.com/GPars/GPars/tree/master/src/test/groovy/groovyx/gpars/samples);
+or simply search the online repository.
 
