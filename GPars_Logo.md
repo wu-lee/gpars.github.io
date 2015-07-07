@@ -9,7 +9,7 @@ We encourage projects and companies that use GPars to display the GPars logo
 on their websites, and elsewhere to help us spread the word and show GPars
 usefulness.
 
-https://raw.githubusercontent.com/GPars/GPars/master/artwork/gpars-logo.PNG
+[![](images/gpars_192x192.png)](https://raw.githubusercontent.com/GPars/GPars/master/artwork/gpars-logo.PNG)
 
 The logo author - Jiři Kropaček
 
